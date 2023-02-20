@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -50,11 +51,13 @@ nav ul li a:hover {
 .apresentacao h1 {
 	font-size: 48px;
 	margin-bottom: 20px;
+  text-shadow: 0.1em 0.1em 0.5em black;
 }
 
 .apresentacao p {
 	font-size: 24px;
 	margin-bottom: 20px;
+  text-shadow: 0.1em 0.1em 0.5em black;
 }
 
 .botao {
@@ -70,9 +73,10 @@ nav ul li a:hover {
 	background-color: #e85aa4;
 }
 
-h1 {
+h2 {
   text-align: center;
   margin-top: 30px;
+  font-size: 36px;
 }
 
 .maisVendidos {
@@ -137,5 +141,48 @@ h1 {
   padding: 20px 0;
   text-align: center;
   font-size: 16px;
+}
+
+.contato { 
+  margin: 0 25% 0 25%;
+  height: 30%;
+  width: 50%;
+	padding: 50px;
+	text-align: center;
+}
+
+.contato h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+form input, form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+form input[type="submit"] {
+	background-color: #ff69b4;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+form input[type="submit"]:hover {
+	background-color: #e85aa4;
 }
 
