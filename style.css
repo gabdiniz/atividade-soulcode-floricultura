@@ -35,3 +35,35 @@ nav ul li a {
 nav ul li a:hover {
 	background-color: #efeded;
 }
+
+.apresentacao {
+	background-image: url('./imagens/banner.png');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 30px;
+	text-align: center;
+}
+
+.apresentacao h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.apresentacao p {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.botão {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ff69b4;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.botão:hover {
+	background-color: #e85aa4;
+}
