@@ -67,3 +67,44 @@ nav ul li a:hover {
 .botão:hover {
 	background-color: #e85aa4;
 }
+
+.maisVendidos {
+  margin: 50px auto;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.maisVendidos .produto{ 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  margin: 0px 10px 30px;
+  padding: 20px;
+  text-align: center;
+  width: calc(33.33% - 20px);
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.maisVendidos .produto img {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+}
+
+.maisVendidos .produto h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.maisVendidos .produto p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
