@@ -37,14 +37,12 @@ nav ul li a:hover {
 	background-color: #efeded;
 }
 
-
-
 .apresentacao {
 	background-image: url('./imagens/banner.png');
 	background-size: cover;
 	background-position: center;
 	color: #fff;
-	padding: 30px;
+	padding: 35px;
 	text-align: center;
 }
 
@@ -185,4 +183,3 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
 	background-color: #e85aa4;
 }
-
